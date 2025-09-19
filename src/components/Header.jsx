@@ -7,7 +7,7 @@ export default function Header() {
             <Link to="/">
                 <img src={logo}/>
             </Link>
-            <span className="title">spotify roulette</span>
+            <Link to="/" style={{textDecoration: "none"}}><span className="title">spotify roulette</span></Link>
         </header>
     )
 }
