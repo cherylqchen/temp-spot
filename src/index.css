@@ -128,3 +128,9 @@ form > button:hover {
   height: 2.3em;
   cursor: pointer;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

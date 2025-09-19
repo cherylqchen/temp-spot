@@ -56,7 +56,9 @@ export default function GamePage() {
         {preview ?
             <MusicPlayer url={preview} title={track.name} artist={track.artist} correct={getNewTrack} />
             :
-            <p style={{fontSize: "3rem", fontWeight: "bolder"}}>Getting playback...</p>
+            <div className="loading">
+                <p style={{fontSize: "3rem", fontWeight: "bolder"}}>Getting playback...</p>
+            </div>
         }
         
     </>
